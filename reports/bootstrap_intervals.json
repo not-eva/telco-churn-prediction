@@ -1,0 +1,18 @@
+{
+  "champion_roc_auc": {
+    "lower": 0.8414325704106487,
+    "upper": 0.8841596165131993
+  },
+  "champion_ap": {
+    "lower": 0.6687545330184723,
+    "upper": 0.7516373241467775
+  },
+  "delta_roc_auc_vs_original_boosting": {
+    "lower": 0.0002995016852853805,
+    "upper": 0.011003919781458276
+  },
+  "delta_ap_vs_original_boosting": {
+    "lower": 0.0027179378372083453,
+    "upper": 0.03167197803508696
+  }
+}

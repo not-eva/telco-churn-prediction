@@ -1,0 +1,12 @@
+# Validated with CPython 3.12.2. Explicit scientific and notebook runtime versions.
+numpy==1.26.4
+pandas==2.2.0
+scipy==1.12.0
+scikit-learn==1.5.0
+matplotlib==3.8.2
+joblib==1.4.2
+threadpoolctl==3.5.0
+nbformat==5.9.2
+nbclient==0.9.0
+ipykernel==6.29.2
+jupyterlab==4.5.6

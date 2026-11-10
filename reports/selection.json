@@ -1,0 +1,43 @@
+{
+  "data_sha256": "88be4b93fbe0cc83421af1c503794c97c342eca914c1576db7c276e61d61358a",
+  "rows": 7043,
+  "development_rows": 5634,
+  "test_rows": 1409,
+  "development_churn_rate": 0.26588569400071,
+  "missing_total_charges": 11,
+  "duplicate_predictor_rows": 40,
+  "python": "3.12.2",
+  "sklearn": "1.5.0",
+  "champion": "spline_logistic",
+  "selection_metric": "nested CV average precision; 0.005 simplicity tolerance",
+  "final_parameters": {
+    "dummy": {},
+    "original_logistic": {},
+    "original_tree": {},
+    "original_boosting": {},
+    "tuned_logistic": {
+      "model__C": 10.0,
+      "model__class_weight": null
+    },
+    "spline_logistic": {
+      "model__C": 0.1,
+      "model__class_weight": null
+    },
+    "hist_boosting": {
+      "features__enabled": false,
+      "model__l2_regularization": 1.0,
+      "model__learning_rate": 0.05,
+      "model__max_leaf_nodes": 7
+    }
+  },
+  "thresholds": {
+    "original_logistic": 0.5223976493959224,
+    "original_tree": 0.6441469838180705,
+    "original_boosting": 0.5379259548816133,
+    "tuned_logistic": 0.26817663861734936,
+    "spline_logistic": 0.3081848894969203,
+    "hist_boosting": 0.2363052578938778
+  },
+  "threshold_objective": "maximum development nested-OOF F1; no business cost assumption",
+  "holdout_evaluated": true
+}

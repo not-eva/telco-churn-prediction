@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telco-churn-prediction"
+version = "1.0.0"
+description = "Customer churn modelling with honest validation and retention trade-offs"
+requires-python = ">=3.12,<3.13"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]

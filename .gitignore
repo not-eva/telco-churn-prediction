@@ -1,0 +1,22 @@
+# Data and customer-level derivatives stay local.
+data/raw/*
+!data/raw/.gitkeep
+reports/private/
+reports/reproduction/
+*.joblib
+*.npz
+*.pkl
+
+# Python and notebooks
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+build/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
